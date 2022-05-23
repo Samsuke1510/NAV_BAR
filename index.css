@@ -40,6 +40,14 @@ body{
     top: 20px;
     left: 50px;
   } 
+  .picc ul{
+    margin: 220px;
+    padding: 70px;
+    position: absolute;
+    top: 98px;
+    left: 44px;
+  } 
+  
   .edit {
     position: relative;
     margin-top: -80%;
@@ -48,3 +56,10 @@ body{
     border-radius: 50%;
     background-color: purple;
   }
+  .pic13{
+    margin: 220px;
+    padding: 70px;
+    position: absolute;
+    top: 98px;
+    left: 44px;
+  } 
