@@ -1,65 +1,109 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: #cccc;
-    font-family: Poppins;
-    justify-content: center;
-    display: flex;
-    height: 100vh;
-   }
-   .navbar ul{
-    list-style: none;
-    background: #ffffff;
-    padding: 0;
-    margin-top: 100%;
-    text-align: center;
-   }
-   .navbar li{
-    display: inline-block;
-   }
-   .navbar a{
-    text-decoration: none;
-    color: rgb(166, 66, 183);
-    width: 100px;
-    display: block;
-    padding: 25px 20px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-   }
-   .navbar a:hover{
-    background: orange;
-   }
-  .test{
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    background-color: #f88484;
-    border-radius: 50%;
-    top: 20px;
-    left: 50px;
-  } 
-  .picc ul{
-    margin: 220px;
-    padding: 70px;
-    position: absolute;
-    top: 98px;
-    left: 44px;
-  } 
-  
-  .edit {
-    position: relative;
-    margin-top: -80%;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: purple;
-  }
-  .pic13{
-    margin: 220px;
-    padding: 70px;
-    position: absolute;
-    top: 98px;
-    left: 44px;
-  } 
+body {
+  margin: 0;
+  padding: 0;
+  background: #cccc;
+  font-family: Poppins;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+.navbar ul {
+  list-style: none;
+  background: #ffffff;
+  padding: 0;
+  margin-top: 100%;
+  text-align: center;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(166, 66, 183);
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.navbar a:hover {
+  background: orange;
+}
+.test {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #f88484;
+  border-radius: 50%;
+  top: 20px;
+  left: 50px;
+}
+.picc ul {
+  margin: 220px;
+  padding: 70px;
+  position: absolute;
+  top: 98px;
+  left: 44px;
+}
+
+.edit {
+  position: relative;
+  margin-top: -80%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: purple;
+}
+.pic13 {
+  margin: 220px;
+  padding: 70px;
+  position: absolute;
+  top: 98px;
+  left: 44px;
+}
+
+/* Proposition Thibault */
+
+.navBar_body {
+  display: flex;
+  width: 550px;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30%;
+  background-color: white;
+}
+
+#ellipse_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin-top: -80px;
+  background-color: purple;
+  border-radius: 50%;
+}
+
+#bell {
+  width: 50px;
+  height: 50px;
+  background-image: url("image\ 13.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#bell:hover {
+  width: 50px;
+  height: 50px;
+  background-image: url("activated_bell.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.picto:hover {
+  width: 50px;
+  height: 50px;
+}
